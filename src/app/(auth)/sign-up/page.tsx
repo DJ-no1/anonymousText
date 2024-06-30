@@ -97,7 +97,7 @@ export default function SignUpForm() {
     };
 
     return (
-        <>
+        
         <div className="flex justify-center items-center min-h-screen bg-gray-800">
         <div className="w-full max-w-md p-8 space-y-8 bg-white rounded-lg shadow-md">
             <div className="text-center">
@@ -168,7 +168,7 @@ export default function SignUpForm() {
                     Please wait
                     </>
                 ) : (
-                    'Sign Up'
+                    "Sign Up"
                 )}
                 </Button>
             </form>
@@ -184,7 +184,7 @@ export default function SignUpForm() {
             </div>
         </div>
         </div>
-        </>
+        
     );
     }
 
