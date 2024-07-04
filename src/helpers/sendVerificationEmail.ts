@@ -11,7 +11,7 @@ export async function sendVerificationEmail(
 ): Promise<ApiResponse> {
   try {
     await resend.emails.send({
-      from: 'onboarding@resend.dev',
+      from: 'noreply@sastra.cloud',
       to: email,
       subject: 'MYSTERY MESSAGE  verification code',
       react: VerificationEmail({ username, otp: verifyCode}),
